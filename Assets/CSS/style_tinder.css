@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@media only screen and (max-width: 4080px) {
+
+    /* General Styling */
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(253, 58, 115);
+        font-family: 'Oswald', sans-serif;
+        width: 100%;
+        margin: 0%;
+    }
+    .css-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        
+
+
+    }
+
+    .button-div{
+        margin: -50px;
+    }
+
+    .css-logo{
+        margin-top: 1%;
+        margin-bottom: -2.8%;
+        aspect-ratio: 1;
+        width: 90px;
+    }
+
+    .css-hr{
+        width: 100%;
+        margin-top: -0.1%;
+        border-color: black;
+    }
+
+    .css-header.css-logo-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .css-body-heading{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-shadow: 4px 4px #ff0000;
+        margin: 0%;
+    }
+
+    .css-home-image{
+        border-style: solid;
+        border-radius: 50px;
+    }
+
+    .css-button{
+        font-size: 30px;
+        background-color: rgb(253, 58, 115);
+        color: white;
+        font-family: inherit;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 4px;
+        margin: 50px;
+        padding: 20px;
+        text-shadow:3px 3px #b30000;
+    }
+
+    .css-button:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(153, 0, 0);
+        text-shadow:none;
+        cursor: pointer;
+    }
+
+    .nav-button{
+        font-size: larger;
+        width: 200px;
+        padding: 0px;
+        margin: 0%;
+    }
+
+    .general-header{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+    /* Login Styling */
+
+    .login-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-family: inherit;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        border-style: solid;
+    }
+
+    .credentials-div{
+        background-color: white;
+        width: 100%;
+        margin-top: -4%;
+        padding-top: 5%;
+    }
+
+    .css-label{
+        font-size: larger;
+        font-weight: bolder;
+        margin-right: 5%;
+        margin-left: 4%;
+    }
+
+    .email-label{
+        margin-right: 11%;
+    }
+    .css-input{
+        font-size: larger;
+        font-family: inherit;
+        width: 60%;
+        margin: 5%;
+        padding: 5px;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 5px;
+    }
+
+    .login-button{
+        font-size: x-large;
+        width: 150px;
+        padding: 8px;
+        border-radius: 30px;
+        margin-left: 37%;
+    }
+
+    /* Create Account Styling */
+
+    .create_account-div{
+        border-style: solid;
+        background-color: white;
+        padding: 3%;
+    }
+    
+    .fn-label{
+        margin-right: 7%;
+    }
+    .ln-label{
+        margin-right: 7%;
+    }
+    .age-label{
+        margin-right: 14.5%;
+    }
+
+    .gender-label{
+        margin-right: 11%;
+    }
+    .phone_num-label{
+        margin-right: 1%;
+    }
+    
+    .create_account-form .password-label{
+        margin-right: 8%;
+    }
+    .create_account-form .email-label{
+        margin-right: 13%;
+    }
+    .con_password-label{
+        margin-right: -2%;
+    }
+    .create_account-button{
+        font-size: x-large;
+        width: 200px;
+        padding: 8px;
+        border-radius: 30px;
+        margin-left: 31%;
+        margin-bottom: 2%;
+    }
+    
+    .PFG-label{
+        margin-right: 0.5%;
+    }
+    /* Swipe Styling */
+    
+    .tinder-div{
+        border-style: solid;
+        margin-top: 2%;
+        padding: 3%;
+    }
+    .swipe-div{
+        padding-top: 1%;
+        margin-top: 1%;
+    }
+    
+    .css-img{
+        border-style: solid;
+    }
+    
+    .like-button{
+        font-size: inherit;
+        background-color: greenyellow;
+        color: black;
+        text-shadow: 2px 2px white;
+        width: 99px;
+    }
+    .dislike-button{
+        font-size: inherit;
+        background-color: red;
+        color: white
+        text-shadow 2px 2px black;
+        margin-left: 12%;
+    }
+    .swipe-img{
+        margin-top: 5.5%;
+        object-fit: contain;
+        background-color: white;
+    }
+    
+    .interaction-div{
+        margin-bottom: -15%;
+        font-size: large;
+    }
+    
+    .profile-button{
+        margin: 6%;
+        margin-bottom: 9%;
+        text-shadow:  2px 2px brown;
+        border-color: whitesmoke;
+    }
+
+    /* Profile Styling */
+    
+    .profile-heading{
+        font-size: 40px;
+        margin-top: -3%;
+    }
+    
+    .info-div{
+        background-color: white;
+        padding: 2%;
+        margin: 0.5%;
+        border-style: solid;
+        margin-bottom: 1%;
+    }
+    .img-div{
+        align-self: center;
+        margin-left: 9.5%;
+        margin-top: 4%;
+        margin-bottom: 7%;
+        background-color: white;
+    }
+
+    .profile-heading{
+        margin: -8px;
+    }
+
+    .upload-picture-button{
+        margin: 0%;
+        font-size: medium;
+        text-shadow: 2px 2px black;
+
+    }
+
+    
+    .profile-img{
+        margin-top: 5.5%;
+        object-fit: contain;
+        background-color: white;
+    }
+
+
+
+
+    input[type=file]::file-selector-button {
+        margin-right: 20px;
+        border: solid;
+        background: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+        margin-left: 10%;
+        text-shadow: 1px 1px pink;
+      }
+      
+      input[type=file]::file-selector-button:hover {
+        background: pink;
+        font-weight: bolder;
+      }
+
+      .css-file-label{
+        color: white;
+        text-shadow: 2px 2px black;
+      }
+
+        .upload-picture-button{
+        margin-right: -2%;
+      }
+
+        .css-profile-info{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        
+        .upload-form{
+            margin-top: 2%;
+            margin-bottom: 0%;
+        }
+        .profile-div{
+            padding-top: 1%;
+            margin-top: 1%;
+            padding-bottom: 1%;
+            height: max-content;
+        }
+        #submit-button{
+            border-style: solid;
+            border-radius: 7%;
+            border-width: 3px;
+            padding: 2%;
+            width: 100px;
+            background-color: white;
+            color: black;
+            font-size: medium;
+            font-family: inherit;
+            text-shadow: 1px 1px pink;
+            margin-bottom: 0%;
+            margin-top: 0%;
+        }
+
+        #submit-button:hover{
+            background: pink;
+            font-weight: bolder;
+        }
+
+
+
+        /* ERROR login Styling */
+        .login-error-message{
+          margin-left: 30%;
+          font-weight: bolder;
+          font-family: inherit;
+          font-size: larger;
+          color: red;
+          text-shadow: 2px 2px white;
+        }
+
+        /* Out of potential matches styling */
+        .swipe-img-OOPM{
+            opacity: 0;
+        }
+
+        .css-OOPM-message{
+            align-self: center;
+            font-family: inherit;
+            font-size: x-large;
+            text-align: center;
+            line-height: 50px;
+            text-shadow: 2px 2px pink;
+        }
+
+        .swipe-div-OOPM{
+           margin-top: 0.5%;
+        }
+
+        .info-div-OOPM{
+            background-color: white;
+            margin-top: -20%;
+        }
+
+        /* Matches Styling */
+
+        .matches-heading{
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+
+        /* No Matches Styling */
+
+        .swipe-div-NM{
+            padding: 2%;
+            padding-right: 5.5%;
+        }
+
+        .info-div-NM{
+            padding: 25%;
+            margin: 0%;
+            background-color: white;
+            width: 80%;
+        }
+    }
